@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio Personal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a mi sitio</h1>
+        <button id="theme-toggle">🌙</button>
+    </header>
+
+    <section id="sobre-mi">
+        <h2>Sobre mí</h2>
+        <p>Hola, soy un estudiante.</p>
+    </section>
+
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <div class="servicios-container">
+            <div class="servicio">
+                <h3>Desarrollo Web</h3>
+                <p>Creación de sitios web atractivos, funcionales y adaptables a tus necesidades.</p>
+            </div>
+            <div class="servicio">
+                <h3>Programación a Medida</h3>
+                <p>Desarrollo de sistemas personalizados que se ajusten a tus procesos y objetivos.</p>
+            </div>
+            <div class="servicio">
+                <h3>Optimización y Mantenimiento</h3>
+                <p>Mejora del rendimiento, actualizaciones y soporte técnico continuo.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form id="contact-form">
+            <input type="text" id="nombre" placeholder="Tu nombre" required>
+            <input type="email" id="correo" placeholder="Tu correo" required>
+            <textarea id="mensaje" placeholder="Tu mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
