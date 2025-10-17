@@ -1,3 +1,6 @@
+// Commit 3: mensaje de prueba
+console.log('Commit 3 registrado');
+
 // Cambio de tema
 const themeToggle = document.getElementById('theme-toggle');
 const body = document.body;
